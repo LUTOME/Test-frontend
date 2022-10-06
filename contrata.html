@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS PRINCIPAL-->
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="./assets/styles/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet"/>
+    <title>Lucas Medina Test</title>
+  </head>
+  <body>
+    <!--MODAL-->
+    <section id="modal-cobertura">
+      <div class="container-fluid d-none" id="modal-cobertura-on-off">
+        <div class="row">
+          <div class="col">
+            <a href="#" id="cerrar-modal-cobertura"
+              ><i class="bi bi-x-circle x-modal"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col p-0">
+            <div class="background-modal"></div>
+            <div class="row">
+              <div class="col-12">
+                <div
+                  class="row circulo justify-content-center align-items-center"
+                >
+                  <div class="col-lg-6 col-8">
+                    <div class="row justify-content-center">
+                      <div class="col-12 mt-3">
+                        <p class="modal-title text-center">
+                          CONSULTA TU COBERTURA
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                      <p class="col-12 text-center modal-info">
+                        TV INTERACTIVA + TELEFONÍA FIJA A UN
+                        <span>PRECIO</span> INCREÍBLE
+                      </p>
+                    </div>
+
+                    <div class="row justify-content-center">
+                      <div class="col-12 text-center me-4 me-md-0">
+                        <form action="" method="">
+                          <input name="telefono" type="number" placeholder="Tu teléfono" />
+                          <div class="row">
+                            <div class="col-12 d-flex justify-content-center mt-0 mt-md-4">
+                              <label class="checkbox-wrapper">
+                                <input checked="" type="checkbox" id="check" hidden="" />
+                                <label for="check" class="checkmark"></label>
+                              </label>
+          
+                              <p class="d-inline ut-terminos ms-2">
+                                He leído y acepto los
+                                <a href="#">Términos y Condiciones</a>
+                              </p>
+                            </div>
+                          </div>
+
+                          <input
+                            type="submit"
+                            value="Llámenme"
+                            class="btn-solicitar text-white px-2 px-md-5 py-0 py-md-2 my-0 my-md-3 mt-xl-3 ms-3 ms-md-0"
+                          />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--MODAL-->
+
+    <div class="contenedor-principal">
+      <header>
+        <div class="container-fluid">
+          <div class="row ut-header-cont my-3">
+            <a class="col-lg-4 col-3 ut-header-tel" href="#"></a>
+            <div class="col-lg-4 col-6 ut-header-logo">
+              <h1 class="d-none">Logotipo</h1>
+            </div>
+            <a href="#" class="col-3 col-lg-4 ut-header-pin" id="logo-pin"></a>
+          </div>
+        </div>
+      </header>
+
+      <!--Banner-->
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-center" data-banner="contrata">
+
+          <div class="col-lg-6 col-12 offset-xl-2">
+            <div class="row cont-banner-titulo">
+              <div class="col-12">
+                <p class="text-center text-lg-start">Internet <span>INIGUALABLE</span></p>
+              </div>
+            </div>
+            <div class="row cont-banner-info">
+              <div class="col-12"><p class="text-center text-lg-start">TV Interactiva + Telefonía Fija</p></div>
+            </div>
+            <div class="row cont-banner-precio text-start">
+              <div class="col-lg-6 col-12">
+                <p class="text-center">Desde <span>$449</span> al mes</p>
+              </div>
+            </div>
+            <div class="row cont-banner-btn justify-content-center justify-content-lg-start mt-5 mb-5 mb-0">
+              <div class="col-md-6 col-12 text-center m-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-8 card-contrata">
+            <div class="row card-contrata-titulo">
+              <div class="col"><p class="pt-3">¡Contrata ahora!</p></div>
+            </div>
+            <div class="row card-contrata-foot justify-content-center">
+              <div class="row card-contrata-info">
+                <div class="col">
+                  <p class="text-center pt-3">
+                    Déjanos tu número y te llamamos en segundos
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                <form action="" method="">
+                  <label for="num-tel" class="text-center text-muted d-block"
+                    >Si es celular sin el 044 o 045.
+                    <input
+                      type="number"
+                      placeholder="Tu teléfono"
+                      name="telefono"
+                  /></label>
+                  <div class="row justify-content-center"><div class="col-6 col-lg-12">
+                    <div class="row">
+                            <div class="col-12 d-flex justify-content-center mt-0 mt-md-4">
+                              <label class="checkbox-wrapper">
+                                <input checked="" type="checkbox" id="check" hidden="" />
+                                <label for="check" class="checkmark"></label>
+                              </label>
+          
+                              <p class="d-inline ut-terminos ms-2">
+                                He leído y acepto los
+                                <a href="#">Términos y Condiciones</a>
+                              </p>
+                            </div>
+                          </div>
+                    
+                  </div>
+                  
+                  <div class="d-flex justify-content-center mb-3">
+                    <input
+                      type="submit"
+                      value="LLAMAME"
+                      class="btn-solicitar text-white px-4 py-2 my-md-2 mb-4"
+                    />
+                    
+                  </div>
+                </form>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="main-contrata pb-4">
+        <!--Divisor-->
+
+        <div class="container-fluid">
+          <div
+            class="row divisor-1 align-items-center justify-content-center my-5"
+          >
+            <div class="col-lg-3 col-auto d-flex align-items-center justify-content-center">
+              <a
+                href="#triplePacks"
+                class="dt-pack text-center text-decoration-none ut-btn-primario mb-0 px-5"
+                >TRIPLE PACK</a
+              >
+            </div>
+            <div class="col-lg-3 col-auto d-flex align-items-center justify-content-center">
+              <a
+                href="#doblePacks"
+                class="dt-pack text-center text-decoration-none ut-btn-primario mb-0 px-5"
+                >DOBLE PACK</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--Cards Triples-->
+        <section id="triplePacks">
+          <div class="container cards">
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="card-triple-image"></div>
+
+              <div class="col-12 col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">+ 80 Canales + 50 Canales HD</p>
+              </div>
+
+              <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-xl-start my-4 my-lg-0">
+                
+
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+
+
+
+              </div>
+
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#trp-collapse-50"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="trp-collapse-50"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="trp-collapse-50">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="card-triple-image"></div>
+              <div class="col-12 col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">+ 120 Canales + 90 Canales HD</p>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-xl-start my-4 my-lg-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#trp-collapse-80"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="trp-collapse-80"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="trp-collapse-80">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="card-triple-image"></div>
+              <div class="col-12 col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">+ 120 Canales + 90 Canales HD</p>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-xl-start my-4 my-lg-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#trp-collapse-160"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="trp-collapse-160"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="trp-collapse-160">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="card-triple-image"></div>
+              <div class="col-12 col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">+ 120 Canales + 90 Canales HD</p>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-xl-start my-4 my-lg-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#trp-collapse-200"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="trp-collapse-200"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="trp-collapse-200">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="col-12 col-lg-2"><p class="m-0 text-center">XVIEW TOTAL 200</p></div>
+              <div class="card-triple-image"></div>
+              <div class="col-12 col-lg-4 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">+ 80 Canales + 50 Canales HD</p>
+              </div>
+              <div class="ccol-12 col-md-4 d-flex justify-content-xl-start justify-content-center my-4 my-xl-0 mx-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#trp-collapse-x200"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="trp-collapse-x200"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="trp-collapse-x200">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="col-12 col-lg-2"><p class="m-0 text-center">XVIEW TOTAL 350</p></div>
+              <div class="card-triple-image"></div>
+              <div class="col-12 col-lg-4 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">+ 80 Canales + 50 Canales HD</p>
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-xl-start justify-content-center my-4 my-xl-0 mx-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#trp-collapse-x350"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="trp-collapse-x350"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="trp-collapse-x350">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="col-12 col-lg-2"><p class="m-0 text-center">XVIEW TOTAL 500</p></div>
+              <div class="card-triple-image"></div>
+              <div class="col-12 col-lg-4 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">+ 80 Canales + 50 Canales HD</p>
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-xl-start justify-content-center my-4 my-xl-0 mx-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#trp-collapse-x500"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="trp-collapse-x500"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="trp-collapse-x500">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="col-12 col-lg-2"><p class="m-0 text-center">XVIEW TOTAL 1000</p></div>
+              <div class="card-triple-image"></div>
+              <div class="col-12 col-lg-4 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">+ 80 Canales + 50 Canales HD</p>
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-xl-start justify-content-center my-4 my-xl-0 mx-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#trp-collapse-x1000"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="trp-collapse-x1000"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="trp-collapse-x1000">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Divisor-->
+
+        <div class="container-fluid">
+          <div
+            class="row divisor-2 align-items-center justify-content-center my-5"
+          >
+            <div class="col-lg-3 col-auto d-flex align-items-center justify-content-center">
+              <a
+                href="#triplePacks"
+                class="dt-pack text-center text-decoration-none ut-btn-primario mb-0 px-5"
+                >TRIPLE PACK</a
+              >
+            </div>
+            <div class="col-lg-3 col-auto d-flex align-items-center justify-content-center">
+              <a
+                href="#doblePacks"
+                class="dt-pack text-center text-decoration-none ut-btn-primario mb-0 px-5"
+                >DOBLE PACK</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--Cards Dobles-->
+        <section id="doblePacks">
+          <div class="container cards mb-0">
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="col-12 col-xl-5 col-lg-7 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">
+                  Hasta 50 Mbps de velocidad + Llamadas Ilimitadas
+                </p>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center my-4 my-lg-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#dbl-collapse-50"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="dbl-collapse-50"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="dbl-collapse-50">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="col-12 col-xl-5 col-lg-7 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">
+                  Hasta 100 Mbps de velocidad + Llamadas Ilimitadas
+                </p>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center my-4 my-lg-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#dbl-collapse-100"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="dbl-collapse-100"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="dbl-collapse-100">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="col-12 col-xl-5 col-lg-7 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">
+                  Hasta 200 Mbps de velocidad + Llamadas Ilimitadas
+                </p>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center my-4 my-lg-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#dbl-collapse-200"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="dbl-collapse-200"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="dbl-collapse-200">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row card-triple justify-content-center py-4 my-4 align-items-center position-relative"
+            >
+              <div class="col-12 col-xl-5 col-lg-7 d-flex align-items-center justify-content-lg-start justify-content-center my-4 my-lg-0">
+                <p class="m-0 text-center">
+                  Hasta 350 Mbps de velocidad + Llamadas Ilimitadas
+                </p>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center my-4 my-lg-0">
+                <a class="btn-lo-quiero text-center text-decoration-none px-5" href="#">
+                  <span class="top-key"></span>
+                  <span class="text">LO QUIERO</span>
+                  <span class="bottom-key-1"></span>
+                  <span class="bottom-key-2"></span>
+                </a>
+              </div>
+
+              <div class="row mb-3 justify-content-center">
+                <label class="switch col-lg-1 col-2">
+                  <input
+                    type="checkbox"
+                    data-bs-toggle="collapse"
+                    href="#dbl-collapse-350"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="dbl-collapse-350"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+
+              <div class="collapse" id="dbl-collapse-350">
+                <div class="card card-body">
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                      <p class="text-center">
+                        TELEFONÍA FIJA: Llamadas ilimitadas MEX / EUA / CAN /
+                        Incluye llamadas ilimitadas a celular
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center">
+                    <div class="col-2 card-expand-bg-item-1"></div>
+                    <div class="col-md-4 col-12 card-expand-item-1 mb-4 mb-md-0">
+                      <p class="text-md-start text-center mb-0">Conexión a Internet</p>
+                    </div>
+                    <div class="col-2 card-expand-bg-item-2"></div>
+                    <div class="col-md-3 col-12">
+                      <div class="row card-expand-item-2 justify-content-start">
+                        <p class="text-center mb-0">Llamadas ilimitadas</p>
+                      </div>
+                      <div class="row card-expand-description">
+                        <p>Nacionales | A EUA y Canadá | A móviles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+<!-- CHAT BAR BLOCK -->
+<div class="chat-bar-collapsible" id="chatBot">
+  <button id="chat-button" type="button" class="collapsible">Habla con nosotros
+      <i id="chat-icon" class="fa fa-fw fa-comments-o"></i>
+  </button>
+
+  <div class="content">
+      <div class="full-chat-block">
+          <!-- Message Container -->
+          <div class="outer-container">
+              <div class="chat-container">
+                  <!-- Messages -->
+                  <div id="chatbox">
+                      <h5 id="chat-timestamp"></h5>
+                      <p id="botStarterMessage" class="botText"><span>Cargando...</span></p>
+                  </div>
+
+                  <!-- User input box -->
+                  <div class="chat-bar-input-block">
+                      <div id="userInput">
+                          <input id="textInput" class="input-box" type="text" name="msg"
+                              placeholder="Tap 'Enter' to send a message">
+                          <p></p>
+                      </div>
+
+                      <div class="chat-bar-icons">
+                          <i id="chat-icon-heart" class="fa fa-fw fa-heart"
+                              onclick="heartButton()"></i>
+                          <i id="chat-icon-plane" class="fa fa-fw fa-send"
+                              onclick="sendButton()"></i>
+                      </div>
+                  </div>
+
+                  <div id="chat-bar-bottom">
+                      <p></p>
+                  </div>
+
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+</div>
+<!-- CHAT BAR BLOCK -->
+      <footer class="mb-5 pb-5 pb-lg-0">
+        <div class="container-fluid">
+          <div class="row row-1-footer">
+            <div class="col-md-3 col logo-footer"></div>
+            <div
+              class="col-md-4 a-footer d-flex offset-lg-5 offset-md-2 my-3 my-md-0"
+            >
+              <a
+                href="#"
+                class="text-muted text-decoration-none mx-3 align-self-center"
+                >Términos y Condiciones</a
+              >
+              <a
+                href="#"
+                class="text-muted text-decoration-none mx-3 align-self-center"
+                >Aviso de Privacidad</a
+              >
+              <a
+                href="#"
+                class="text-muted text-decoration-none mx-3 align-self-center"
+                >Política y Seguridad</a
+              >
+            </div>
+          </div>
+
+          <div class="row row-2-footer pt-3 align-items-center">
+            <div
+              class="col col-lg-3 ut-footer-msj offset-md-3 offset-lg-1 mt-3 offset-0 text-center text-lg-start ms-md-5"
+            >
+              <p>
+                Para contratar déjanos tu número y te marcaremos en segundos
+              </p>
+            </div>
+            <div class="col-lg-5 col-12 text-center ut-footer-numero mt-3">
+              <form action="" method="">
+                <input
+                  type="number"
+                  name="telefono"
+                  placeholder="55 1234 5678"
+                />
+
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center mt-4">
+                    <label class="checkbox-wrapper">
+                      <input checked="" type="checkbox" id="check" hidden="" />
+                      <label for="check" class="checkmark"></label>
+                    </label>
+
+                    <p class="d-inline ut-terminos ms-2">
+                      He leído y acepto los
+                      <a href="#">Términos y Condiciones</a>
+                    </p>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div
+              class="col-lg-3 col-12 d-flex align-items-center m-0 justify-content-center"
+            >
+              <input
+                type="submit"
+                value="SOLICITAR"
+                class="btn-solicitar text-white px-5 py-3 my-3 my-xl-0 mb-xl-4"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/js/modal-cobertura.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/js/chat.js"></script>
+    <script src="./assets/js/responses.js"></script>
+  </body>
+</html>
